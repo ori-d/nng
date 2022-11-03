@@ -272,5 +272,5 @@ set(CPACK_RESOURCE_FILE_LICENSE ${CMAKE_CURRENT_SOURCE_DIR}/LICENSE.txt)
 set(CPACK_PACKAGE_INSTALL_DIRECTORY "nng")
 set(CPACK_PACKAGE_FILE_NAME "${PROJECT_NAME}-v${NNG_PACKAGE_VERSION}")
 
-add_custom_target(dist COMMAND ${CMAKE_MAKE_PROGRAM} package_source)
-include(CPack)
+# add_custom_target(dist COMMAND ${CMAKE_MAKE_PROGRAM} package_source)
+# include(CPack)
